@@ -1,0 +1,14 @@
+{
+  "name": "mediconnect-plus",
+  "private": true,
+  "description": "MediConnect Plus: núcleo transaccional de gestión hospitalaria y telemedicina (backend Express + frontend Angular)",
+  "scripts": {
+    "instalar": "npm --prefix backend install && npm --prefix frontend install",
+    "seed": "npm --prefix backend run seed",
+    "reset": "npm --prefix backend run reset",
+    "backend": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend start",
+    "test": "npm --prefix backend test",
+    "totp": "npm --prefix backend run totp --"
+  }
+}

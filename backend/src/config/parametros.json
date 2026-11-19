@@ -1,0 +1,20 @@
+{
+  "P-01": { "descripcion": "Anticipación de la notificación de confirmación (min)", "valor": 1440, "origen": "Entrevista" },
+  "P-02": { "descripcion": "Plazo para confirmar tras la notificación (min)", "valor": 360, "origen": "Entrevista" },
+  "P-03": { "descripcion": "Anticipación mínima para cancelar o reprogramar (min)", "valor": 120, "origen": "Supuesto" },
+  "P-04": { "descripcion": "Máximo de reprogramaciones por cita", "valor": 2, "origen": "Supuesto" },
+  "P-05": { "descripcion": "Tolerancia de inasistencia (min)", "valor": 15, "origen": "Supuesto" },
+  "P-06": { "descripcion": "Ventana del enlace de videoconsulta (min antes / min después)", "valor": { "antes": 15, "despues": 30 }, "origen": "Supuesto" },
+  "P-07": { "descripcion": "Inactividad que cierra la sesión (min)", "valor": 15, "origen": "Negociado (Conflicto 1)" },
+  "P-08": { "descripcion": "Intentos fallidos de inicio de sesión y bloqueo (min)", "valor": { "intentos": 5, "bloqueoMin": 15 }, "origen": "Supuesto" },
+  "P-09": { "descripcion": "Tiempo para aceptar una oferta de lista de espera (min)", "valor": 120, "origen": "Supuesto" },
+  "P-10": { "descripcion": "Vigencia de la receta (días)", "valor": 30, "origen": "Supuesto" },
+  "P-11": { "descripcion": "Vigencia de la reserva en farmacia (h)", "valor": 48, "origen": "Supuesto" },
+  "P-12": { "descripcion": "Retención de auditoría (años)", "valor": 6, "origen": "Supuesto (HIPAA)" },
+  "P-13": { "descripcion": "Retención del expediente (años desde el último acto médico)", "valor": 5, "origen": "Supuesto (NOM-004, validar)" },
+  "P-14": { "descripcion": "Vigencia del código de verificación de registro (min)", "valor": 10, "origen": "Supuesto" },
+  "P-15": { "descripcion": "Duración de cita por defecto (min)", "valor": 30, "origen": "Supuesto" },
+  "P-16": { "descripcion": "Horizonte de la agenda visible (días)", "valor": 90, "origen": "Supuesto" },
+  "P-17": { "descripcion": "Reintentos de reserva en farmacia (intentos / segundos entre intentos)", "valor": { "reintentos": 3, "intervaloSeg": 60 }, "origen": "Supuesto" },
+  "P-18": { "descripcion": "Ventana de acceso al expediente por cita (h antes / h después)", "valor": { "antes": 24, "despues": 24 }, "origen": "Supuesto" }
+}
